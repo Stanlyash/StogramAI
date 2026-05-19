@@ -1,0 +1,23 @@
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+build/
+# Dependencies
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+target/
+# Logs and temp files
+*.log
+*.tmp
+# Editors
+.vscode/
+.idea/
+# System files
+.DS_Store
+Thumbs.db
+```
