@@ -71,9 +71,13 @@ dependencies {
     
     // Navigation
     implementation 'androidx.navigation:navigation-compose:2.7.6'
-    // NFC для Mesh сети
+    
+    // Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
+    
+    // Kotlin Serialization для CRDT
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2'
     
     // Testing
     testImplementation 'junit:junit:4.13.2'
